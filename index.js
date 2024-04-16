@@ -6,7 +6,7 @@ const app = express();
 config();
 
 app.get('/', (req, res) => {
-  const markup = `<a style="display: block; color: black; border: solid black 1px; margin: 10px;" href="store">Store</a>`
+  const markup = `<a style="display: block; color: black; border: solid black 1px; margin: 10px;" href="store">store</a>`
   res.send(markup);
 });
 
